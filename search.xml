@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2023/12/23/hello-world/"/>
-      <url>/2023/12/23/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>谷粒商城 - 项目介绍</title>
       <link href="/2023/12/22/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/"/>
       <url>/2023/12/22/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/</url>
@@ -52,7 +39,7 @@
       <link href="/2023/12/22/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E-%E7%AC%94%E8%AE%B0%E7%9B%AE%E5%BD%95/"/>
       <url>/2023/12/22/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E-%E7%AC%94%E8%AE%B0%E7%9B%AE%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[<div style="position: relative; padding: 30% 45%;">    <iframe style="position: absolute;  width: 100%; height: 100%; left: 0; top: 0; danmaku: 1;" src="https://player.bilibili.com/player.html?aid=967612226&bvid=BV1np4y1C7Yf&cid=257414650&p=1&autoplay=0" frameborder="no" scrolling="no"></iframe></div><hr><div class="note warning flat"><p>简介：<code>谷粒商城</code>是由<code>尚硅谷</code>在<code>B站</code>发布的免费教学项目，谷粒商城是一个 B2C(Business to Consumer) 模式的电商平台，销售自营商品给客户。</p><p>该项目所需要具备的前置知识：</p><ul><li>熟悉 SpringBoot 以及常见整合方案 </li><li>了解 SpringCloud </li><li>熟悉 Git、Maven </li><li>熟悉 Linux、Redis、Docker 基本操作 </li><li>了解 HTML、CSS、JS、VUE</li><li>熟练使用 idea 开发项目</li></ul></div><blockquote><p>资料&#x2F;课件&#x2F;源码<br>链接: <a href="https://pan.baidu.com/s/1v2HhliF1ksO_vFOJxhCEBA?pwd=2099">https://pan.baidu.com/s/1v2HhliF1ksO_vFOJxhCEBA?pwd=2099</a><br>提取码: 2099</p></blockquote><hr><h2 id="文章汇总"><a href="#文章汇总" class="headerlink" title="文章汇总"></a>文章汇总</h2><blockquote><p>以下为各个阶段的汇总链接，记录了阶段的具体实现以及实现过程中遇到的问题。</p></blockquote><ol><li><a href="http://localhost:4000/2023/12/22/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/"><strong>项目介绍</strong></a></li></ol><hr><p>文章参考汇总</p><p><a href="https://blog.csdn.net/qq_40991313/article/details/127099139">https://blog.csdn.net/qq_40991313/article/details/127099139</a></p><p><a href="https://blog.csdn.net/hancoder/article/details/106922139">https://blog.csdn.net/hancoder/article/details/106922139</a></p><p><a href="https://gitee.com/agoni_no/gulimall#%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E7%AE%80%E4%BB%8B">https://gitee.com/agoni_no/gulimall#%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E7%AE%80%E4%BB%8B</a></p>]]></content>
+        <content type="html"><![CDATA[<div style="position: relative; padding: 30% 45%;">    <iframe style="position: absolute;  width: 100%; height: 100%; left: 0; top: 0; danmaku: 1;" src="https://player.bilibili.com/player.html?aid=967612226&bvid=BV1np4y1C7Yf&cid=257414650&p=1&autoplay=0" frameborder="no" scrolling="no"></iframe></div><hr><div class="note warning flat"><p>简介：<code>谷粒商城</code>是由<code>尚硅谷</code>在<code>B站</code>发布的免费教学项目，谷粒商城是一个 B2C(Business to Consumer) 模式的电商平台，销售自营商品给客户。</p><p>该项目所需要具备的前置知识：</p><ul><li>熟悉 SpringBoot 以及常见整合方案 </li><li>了解 SpringCloud </li><li>熟悉 Git、Maven </li><li>熟悉 Linux、Redis、Docker 基本操作 </li><li>了解 HTML、CSS、JS、VUE</li><li>熟练使用 IDEA 开发项目</li></ul></div><blockquote><p>资料&#x2F;课件&#x2F;源码<br>链接: <a href="https://pan.baidu.com/s/1v2HhliF1ksO_vFOJxhCEBA?pwd=2099">https://pan.baidu.com/s/1v2HhliF1ksO_vFOJxhCEBA?pwd=2099</a><br>提取码: 2099</p></blockquote><hr><h2 id="文章汇总"><a href="#文章汇总" class="headerlink" title="文章汇总"></a>文章汇总</h2><blockquote><p>以下为各个阶段的汇总链接，记录了阶段的具体实现以及实现过程中遇到的问题。</p></blockquote><ol><li><a href="http://localhost:4000/2023/12/22/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/"><strong>项目介绍</strong></a></li></ol><hr><p><strong>文章参考汇总</strong></p><p><a href="https://blog.csdn.net/qq_40991313/article/details/127099139">https://blog.csdn.net/qq_40991313/article/details/127099139</a></p><p><a href="https://blog.csdn.net/hancoder/article/details/106922139">https://blog.csdn.net/hancoder/article/details/106922139</a></p><p><a href="https://gitee.com/agoni_no/gulimall#%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E7%AE%80%E4%BB%8B">https://gitee.com/agoni_no/gulimall#%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E%E7%AE%80%E4%BB%8B</a></p>]]></content>
       
       
       <categories>
@@ -184,6 +171,19 @@
             <tag> Test </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/1985/12/24/hello-world/"/>
+      <url>/1985/12/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
       
     </entry>
     
