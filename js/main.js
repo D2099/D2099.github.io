@@ -1,3 +1,6 @@
+// 修改记录
+// 在大约1805行添加，随机背景 --> 背景滑动显掩
+
 // 第一次播放音乐
 var anzhiyu_musicFirst = false;
 // 快捷键
@@ -1799,6 +1802,9 @@ document.addEventListener("DOMContentLoaded", function () {
     anzhiyu.getCustomPlayList();
     anzhiyu.addEventListenerConsoleMusicList(false);
     anzhiyu.initPaginationObserver();
+
+	// 随机背景 --> 背景滑动显掩
+    NaoKuo.setVideosBG().then(NaoKuo.BgScrollHide);
 
     setTimeout(() => {
       setInputFocusListener();

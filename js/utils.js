@@ -1,3 +1,74 @@
+const NaoKuo = {
+  /**
+ * 背景滚动显隐
+ */
+  BgScrollHide: () => {
+    if (document.body.clientWidth <= 768 || !document.querySelector("#naokuo-home_bg")) return;
+    const $plcontainer = document.querySelector("#naokuo-home_bg"),
+      $Top_Video = document.querySelector("#naokuo-home_bg #Top_Video"),
+      Top_Video_toggle = {
+        play: ($Top_Video) => {
+          if ($Top_Video && $Top_Video.paused) {
+            $Top_Video.play()
+            console.info("播放");
+          }
+        },
+        pause: ($Top_Video) => {
+          if ($Top_Video && !$Top_Video.paused) {
+            $Top_Video.pause();
+            console.info("暂停");
+          }
+        }
+      };
+    function scrollBg() {
+      // 缓存常用dom元素
+      const currentTop = window.scrollY || document.documentElement.scrollTop,
+        scrollPercent = anzhiyu.getScrollPercent(currentTop, document.body);
+      let Plcontainer = scrollPercent / 50;
+
+      if ($plcontainer) {
+        if (Plcontainer > 1) {
+          Plcontainer = 1;
+          // 完全隐藏时停止视频播放
+          Top_Video_toggle.pause($Top_Video);
+        } else {
+          // 显现时停止视频播放
+          Top_Video_toggle.play($Top_Video);
+        }
+        $plcontainer.style.cssText = '--bg_process:' + Plcontainer + ';display: block';
+      }
+    }
+    scrollBg();
+    anzhiyu.addEventListenerPjax(window, "scroll", scrollBg, { passive: true });
+  },
+  /**
+ * 随机壁纸 
+ * 去除自动播放autoplay=""，用js控制播放
+ */
+  setVideosBG: async () => {
+    if (document.querySelector("#naokuo-home_bg")) {
+      const $VideosBGID = document.querySelector("#naokuo-home_bg"),
+        response = await fetch("/json/images_videos.json"),
+        Array = await response.json();
+      //用于判断是否第一次加载
+      if (sessionStorage.getItem("isReload") && document.body.clientWidth > 768) {
+        const $videoRandomInt = Math.floor(Math.random() * Array.videos.length);
+        // console.info("video", $videoRandomInt);
+        $VideosBGID && ($VideosBGID.classList.add("Top_Video"));
+        $VideosBGID && ($VideosBGID.innerHTML = `<video id="Top_Video" width="100%" height="100%" preload="auto" loop="" muted="true" playsinline="" webkit-playsinline="" x5-playsinline="" x5-video-player-type="h5" x5-video-player-fullscreen="" x5-video-orientation="portraint" x-webkit-airplay="allow">
+    <source src="${Array.videos[$videoRandomInt]}" type="video/mp4">
+    </video>`);
+      } else {
+        //若为第一次加载
+        const $imgRandomInt = Math.floor(Math.random() * Array.images.length);
+        // console.info("img", $imgRandomInt);
+        sessionStorage.setItem("isReload", true)
+        $VideosBGID && ($VideosBGID.innerHTML = `<div id="naokuo-home_img" style="background-image: url('${Array.images[$imgRandomInt]}');"></div>`);
+      }
+    }
+  }
+}
+
 const anzhiyu = {
   debounce: (func, wait = 0, immediate = false) => {
     let timeout;
